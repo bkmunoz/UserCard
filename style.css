@@ -1,0 +1,66 @@
+* {
+    font-family: cursive;
+
+}
+
+.container {
+    box-shadow: 0px 0px 3px grey;
+    margin: 40px 500px;
+    width: 900px;
+}
+
+.top {
+    height: 120px;
+    width: 900px;
+    background-color: #17a2b8;
+    margin: 0px;
+}
+
+.top img {
+    position: relative;
+    margin: 0px 25px;
+    top: 65px;
+    height: 90px;
+    width: 90px;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.bottom {
+    height: 220px;
+    width: 900px;
+    margin: 0px 25px;
+}
+
+.bottom h1 {
+    margin: 50px 0px 15px 0px;
+}
+
+.map {
+    display: inline-block;
+    object-position: absolute;
+    width: 15px;
+    height: 25px;
+}
+
+.bottom h3 {
+    display: inline-block;
+    margin: 0px 0px 10px 0px;
+}
+
+.bottom p {
+    object-position: absolute;
+    margin: 0px;
+}
+
+.gear {
+    height: 20px;
+    width: 20px;
+}
+
+.bottom a {
+    margin-top: 15px;
+    display: inline-block;
+}
